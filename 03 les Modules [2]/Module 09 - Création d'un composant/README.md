@@ -14,7 +14,7 @@ Dans le composant principale nous allons créer et appeler un composant enfant
 
 <img src="../../img/td/td9/1-root.png" width="400">
 
-<img src="../../img/td/td9/10-composant.png" width="400">
+
 **Architecture du composant guest**  
   
 <img src="../../img/td/td9/2-composant.png" width="400">
@@ -66,7 +66,7 @@ import { GuestComponent } from './guest/guest.component';
   <app-guest></app-guest>
   <app-guest></app-guest>
 ```
-<img src="../../img/td/td9/12-data.png" width="400">
+<img src="../../img/td/td9/10-composant.png" width="400">
 **Affichage :**  
 <img src="../../img/td/td9/4-works.png" width="200">
 
