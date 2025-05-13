@@ -10,7 +10,7 @@
 :five: Appeler le service depuis le composant principal   
 -  Récupérer les données du service    
 - Modifier les données du service   
-   
+
 :six: Appeler le service depuis un autre composant      
 
 
@@ -109,13 +109,14 @@ export class AppComponent implements OnInit{
  ngOnInit(): void {
     this.personnes = this.personneService.personnes;
  }
-}
+
 // ajouter la méthode pour ajouter ds le service
  ajouter(f:NgForm){
   const p = new Personne(f.value['prenom'],f.value['nom']);
   f.reset();
   this.personneService.ajouter(p);
  }
+}
 ```
 
 ## :six: Appeler le service depuis un autre composant 
