@@ -122,7 +122,7 @@ Nous Affichons les données envoyées
 
 ## :five: Appeler plusieurs composants depuis un tableau d'objets
 
-<img src="../../img/td/td9/13-data.png" width="4s00">
+<img src="../../img/td/td9/13-data.png" width="400">
 
 ***Plutôt que de "mettre en dur" les données dans la vue HTML***
 - Il est préférable d'envoyer un tableau d'objets !  
