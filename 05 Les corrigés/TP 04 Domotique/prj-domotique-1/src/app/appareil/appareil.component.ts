@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Appareil } from '../models/appareils';
+import { Appareil } from '../models/appareil';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -9,6 +9,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './appareil.component.scss'
 })
 export class AppareilComponent {
-@Input() appareil= new Appareil();
-@Input() indice=0;
+@Input() appareil:Appareil = new Appareil();
+@Input() indice:number=0;
+
 }
