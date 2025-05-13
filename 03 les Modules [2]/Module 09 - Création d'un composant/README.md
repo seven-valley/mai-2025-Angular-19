@@ -67,6 +67,7 @@ import { GuestComponent } from './guest/guest.component';
   <app-guest></app-guest>
 ```
 <img src="../../img/td/td9/10-composant.png" width="400">
+
 **Affichage :**  
 <img src="../../img/td/td9/4-works.png" width="200">
 
