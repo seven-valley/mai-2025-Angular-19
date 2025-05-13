@@ -9,7 +9,8 @@
 :four: Mettre le service dans les "provider"   
 :five: Appeler le service depuis le composant principal   
 -  Récupérer les données du service    
-- Modifier les données du service      
+- Modifier les données du service   
+   
 :six: Appeler le service depuis un autre composant      
 
 
