@@ -10,10 +10,10 @@ import { AppareilService } from '../services/appareil.service';
   styleUrl: './appareil.component.scss'
 })
 export class AppareilComponent {
-@Input() appareil= new Appareil();
-@Input() indice=0;
-constructor(private appareilService:AppareilService){}
-onSwitch(){
-  this.appareilService.switchOne(this.indice);
-}
+  @Input() appareil = new Appareil();
+  @Input() indice = 0;
+  constructor(private appareilService: AppareilService) { }
+  onSwitch() {
+    this.appareilService.switchOne(this.indice);
+  }
 }
