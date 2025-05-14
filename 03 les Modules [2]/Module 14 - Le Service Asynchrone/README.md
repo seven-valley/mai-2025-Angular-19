@@ -96,11 +96,11 @@ export class PersonneService {
   // Nous allons garder les méthodes déjà créée
   ajouter(p: Personne): void {
     this.personnes.push(p);
-    emitSubject();
+    this.emitSubject();
   }
   enlever(i: number): void {
     this.personnes.splice(i, 1);
-    emitSubject();
+    this.emitSubject();
   }
 }
 ```
