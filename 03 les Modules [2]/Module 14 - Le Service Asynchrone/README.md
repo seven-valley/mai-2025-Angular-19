@@ -112,6 +112,7 @@ avec la méthode <code>subscribe()</code>
 **app.component.ts**
 
 ```ts
+construct(private httpClient:HttpClient, private personneService:PersonneService)
 //...
 ngOnInit(): void {
     this.personneService.personneSubject.subscribe(
