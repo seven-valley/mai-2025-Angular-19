@@ -1,6 +1,6 @@
 export class Personne{
-
-    constructor(public prenom?:string,public nom?:string,public status:boolean=false){
-
+    public id:string='';
+    public status:boolean= false;
+    constructor(public prenom?:string,public nom?:string){
     }
 }
