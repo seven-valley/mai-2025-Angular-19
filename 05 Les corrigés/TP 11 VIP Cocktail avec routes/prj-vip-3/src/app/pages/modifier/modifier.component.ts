@@ -12,7 +12,7 @@ export class ModifierComponent {
   prenom:string='';
   nom:string='';
   id:any='';
-  url='https://alpha-javascript-default-rtdb.europe-west1.firebasedatabase.app/'
+  url='https://paris-vip-default-rtdb.europe-west1.firebasedatabase.app/'
   noeud = 'client'
 constructor(private route:ActivatedRoute,private httpClient:HttpClient,private router:Router){}
 ngOnInit(){

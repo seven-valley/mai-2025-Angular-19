@@ -9,7 +9,7 @@ import { HttpClient } from "@angular/common/http";
 export class PersonneService{
   constructor(private httpClient:HttpClient){}
     personneSubject = new Subject();
-    url='https://alpha-javascript-default-rtdb.europe-west1.firebasedatabase.app/'
+    url='https://paris-vip-default-rtdb.europe-west1.firebasedatabase.app/'
     noeud = 'client'
     private personnes:Personne[]=[]; 
     emitSubject(){
@@ -18,6 +18,7 @@ export class PersonneService{
     loadFire(){
         this.httpClient.get<any[]>(`${this.url}${this.noeud}.json`).subscribe(
           (response)=> {
+            this.personnes =[];
             if ( response != undefined)
               for (let id in response){
                 const p = response[id];
@@ -27,7 +28,7 @@ export class PersonneService{
              this.emitSubject()
             }
         );
-        this.emitSubject();
+       
        } 
      ajouter(p:Personne):void{
      
