@@ -3,7 +3,7 @@
 <img src="../../img/tp/numero/c.webp" width="100">
 
 
-<img src="../../img/tp/tp7.webp" width="600">
+<img src="../../img/tp/tp7.webp" width="200">
 
 ```ts
 import { CommonModule } from '@angular/common';
