@@ -1,6 +1,6 @@
 # Module 14 - Le Service Asynchrone
 
-<img src="../../img/3-piments.png" width="100">
+<img src="../../img/3-piments.png" width="200">
 
 - Création d'un service asynchrone
 - Le service devient Injectable
