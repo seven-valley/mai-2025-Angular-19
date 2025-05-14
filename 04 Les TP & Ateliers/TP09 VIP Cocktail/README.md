@@ -13,6 +13,6 @@ const personne ={
 ```
 :warning: Pas de composants
 
-- Créer un service asynchrone
+
 - Mettre en place la requête put pour ajouter le tableau de personnes dans FireBase
 - Mettre en place la requête get pour récupérer le tableau depuis FireBase
