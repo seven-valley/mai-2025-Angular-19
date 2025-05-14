@@ -1,5 +1,7 @@
 # Module 14 - Le Service Asynchrone
 
+<img src="../../img/3-piments.png" width="100">
+
 - Création d'un service asynchrone
 - Le service devient Injectable
 - Création d'un Observable
